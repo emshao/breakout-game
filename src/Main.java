@@ -59,7 +59,7 @@ public class Main extends Application {
     private void makeBlocks() {
         for (int i = 0; i < 7; i++) {
             for (int j = 0; j < 7; j++){
-                Brick b = new Brick(50 * i + 50, 50 * j + 50);
+                Brick b = new Brick(50 * i + 50, 30 * j + 50);
                 bricks[i][j] = b;
                 addNode(b.r);
             }
